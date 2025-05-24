@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.send('Hi guys, welcome!');
 });
 
-app.get('/me', (req, res) => {
+app.get('/you', (req, res) => {
     res.send('I am a very curious and playful person');
 });
 
